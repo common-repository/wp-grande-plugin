@@ -1,0 +1,129 @@
+#wpg_main_menu {
+	display:block;
+	height:32px;
+	border-bottom:3px solid green;	
+	margin-top:2px;
+}
+#wpg_main_menu li{
+	display:block;
+	background-color:#A9F5A9;
+	float:left;
+	color:#0B6138;
+	padding:15px;
+	padding-top:8px;
+	padding-bottom:8px;
+	font-weight:bold;
+	border-bottom:3px solid green;
+}
+#wpg_main_menu li.selected{
+	border:3px solid green;
+	border-bottom:none ;
+	background-color:#F9F9F9;
+	cursor:default;
+}
+#wpg_main_menu li.normal:hover{
+	background-color:#A9F500;
+	cursor:pointer;
+}
+#wpg_main_menu li a{
+	text-decoration:none;
+	color: green;
+}
+.wpg_table_heading{
+	background-color:#A9F5A9;
+	display:block;
+	height:20px;
+	padding:5px;
+	padding-top:0px;
+	padding-bottom:1px;
+	margin-top:50px;
+	border-bottom:1px solid green;	
+	margin-left:-10px;
+	margin-right:-10px;
+}
+.wpg_table_major_options{
+	background-color:#ddd;
+	width:500px;
+}
+
+.wpg_table_major_options td{	
+	padding:5px;
+	margin:0px;
+}
+
+div#wpgToolTipDiv {
+  position: absolute;
+  top: 100px;
+  left: 200px;
+  height: 20px;
+  border: 1px solid #FFFF00;
+  background-color: #FFFFD4;
+  display: none;
+  padding: 3px;
+  padding-top: 7px;
+  padding-bottom: 5px;
+}
+td.wpg_admin_menu_parent{
+	font-size:16px;
+	font-weight:bold;		
+}
+td.wpg_admin_menu_parent:hover{
+	background-color:#ddd;	
+}
+#wpg_edit_adminmenu tr{
+	margin:0;
+	padding:0;
+	background-color:#E8FAE8;	
+}
+#wpg_edit_adminmenu td.wpg_admin_menu_child {
+	margin:0;
+	padding:15px;
+	padding-top:0;
+	padding-bottom:0;		
+}
+#wpg_edit_adminmenu th h2{
+	color:#fff;
+}
+#wpg_edit_adminmenu a{
+	text-decoration:none;
+	color:#444;
+}
+.noclass{
+	display:none;
+}
+#wpgca_footer_support_info{
+	font-size:12px;
+	font-weight:bold;
+	color:#555;
+	border:1px solid green;
+	padding:20px;
+}
+#wpgca_news{
+	 height:50px;
+	 margin-top:-35px;
+	 color:green;
+}
+#wpgca_news a{
+	 color:green;
+}
+.main .donate
+{
+float:right;border: 3px dashed #CCCCCC;
+    float: right;
+   
+    margin-top: 44px;
+    width: 255px;
+}
+.main
+{
+ height: 800px;
+    width: 1108px;
+}
+.firstDiv
+{
+float:left;width: 837px;
+}
+.clear
+{
+clear: both;
+   }
